@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project 89</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<script src="game_login.js"></script>
+</head>
+<body onload="When()">
+
+	<!-- Score tracking -->
+	<h5 id="p1_name"></h5><span id="p1_score"></span>
+	<h5 id="p2_name"></h5><span id="p2_score"></span>
+		
+	<center>
+
+
+
+
+
+		<h1>Math - Multiplication</h1>
+
+		<h5>Question Turn: </h5><span id="Qturn"></span>
+        <h5>Answer Turn: </h5><span id="Aturn"></span>
+		<br>
+	
+		<!-- have to add expression -->
+		<!-- DIV for answers -->
+		<div id="output" class="login_div1 col-lg-4 col-md-6 col-sm-8 col-xs-11"></div>
+		<br>
+		
+		<!-- DIV for factors -->
+		<div class="login_div1 col-lg-4 col-md-6 col-sm-8 col-xs-11">
+			
+			<h4>Factor 1</h4>
+			<input id="f1" class="form-control" placeholder="Enter First Factor">
+            <br>
+
+			<br>
+			<h4>Factor 2</h4>
+			<input id="f2" class="form-control" placeholder="Enter Second Factor">		
+			<br><br>
+			<button id="ButtonGame" onclick="Send()">Send</button>
+
+		</div>
+
+		<br><br><br>
+
+
+
+
+
+	</center>
+
+</body>
+</html>

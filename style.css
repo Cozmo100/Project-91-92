@@ -1,0 +1,50 @@
+body{
+	background: rgb(245, 208, 182);
+	font-family: monospace;
+}
+
+.login_div1 , .login_div2{
+	background: white;
+	padding: 10px;
+	float: none;
+	border-radius: 15px;
+}
+
+
+#player1_name , #player2_name{
+	display: inline-block;
+	margin: 3px;
+	
+}
+
+#word{
+	width: 60%;
+}
+
+#word_display{
+	letter-spacing: 5px;
+}
+
+#output{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #fbbca7;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+#ButtonGame {
+	width: 30%;
+	background-color: rgb(244, 183, 140);
+	border: 3px solid rgb(244, 183, 140);
+	border-radius: 5px;
+}
+
+h1{
+	color:white;
+}
+
+#p1_name , #p2_name{
+	margin-left: 10px;
+}
